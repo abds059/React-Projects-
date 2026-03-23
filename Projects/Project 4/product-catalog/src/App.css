@@ -1,0 +1,84 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  padding: 40px 16px;
+}
+
+#center {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.4rem;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.search-bar input:first-child { flex: 1; }
+
+.search-bar input:last-child  { width: 130px; }
+
+.search-bar input:focus { border-color: #888; }
+
+/* Product List */
+.empty {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+/* Product Card */
+.product-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.product-category {
+  font-size: 0.75rem;
+  color: #888;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.product-card h2 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 8px;
+}
+
+.product-price {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111;
+}
