@@ -13,19 +13,18 @@ body {
 nav {
   padding: 16px 24px;
   background: #fff;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #ddd;
 }
 
 .nav-brand {
   font-weight: 700;
-  font-size: 1.1rem;
   color: #111;
   text-decoration: none;
 }
 
 /* Page wrapper */
 #center {
-  max-width: 640px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 32px 16px;
 }
@@ -37,21 +36,17 @@ h1 {
 }
 
 button {
-  padding: 7px 14px;
-  background: none;
+  padding: 6px 12px;
+  background: #fff;
   border: 1px solid #ccc;
-  border-radius: 6px;
+  border-radius: 4px;
   font-size: 0.85rem;
-  color: #555;
   cursor: pointer;
   margin-bottom: 20px;
 }
 
-button:hover { border-color: #888; color: #111; }
-
 .empty {
   color: #aaa;
-  font-size: 0.9rem;
 }
 
 /* Post Grid */
@@ -64,40 +59,33 @@ button:hover { border-color: #888; color: #111; }
 /* Post Card */
 .post-card {
   background: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 14px;
 }
 
 .category {
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   color: #aaa;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
 }
 
 .post-card h2 {
   font-size: 0.95rem;
-  font-weight: 600;
   color: #111;
-  line-height: 1.4;
+  margin: 6px 0;
 }
 
 .excerpt {
   font-size: 0.85rem;
   color: #666;
-  line-height: 1.5;
-  flex: 1;
+  margin-bottom: 12px;
 }
 
 .card-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 4px;
 }
 
 .date {
@@ -109,24 +97,22 @@ button:hover { border-color: #888; color: #111; }
   font-size: 0.82rem;
   color: #111;
   text-decoration: none;
-  font-weight: 500;
 }
 
 .card-footer a:hover { text-decoration: underline; }
 
 /* Post Detail */
-.post-detail .category { display: block; margin-bottom: 8px; }
-
 .post-detail h1 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #111;
-  margin-bottom: 6px;
-  line-height: 1.4;
+  margin: 8px 0;
 }
 
 .post-detail .date {
-  display: block;
+  color: #aaa;
+  font-size: 0.82rem;
   margin-bottom: 20px;
+  display: block;
 }
 
 .content {
